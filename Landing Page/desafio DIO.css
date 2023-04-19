@@ -1,0 +1,254 @@
+*{
+    font-family: 'Lexend Deca', sans-serif;
+   
+}
+
+body{
+    height: 2491px;
+    width: 1440px;
+    left: 709px;
+    top: -225px;
+    border-radius: 0px;
+    background: #000000;
+    color:white;
+
+}
+h1{
+    font-size: 30px;
+    font-weight: 900;
+    height: (hug)47px;
+    width: (hug)434px;
+    border-radius: nullpx;
+    color : rgba(49, 168, 221, 1) ;
+    -webkit-background-clip: text;
+    background-clip: text;
+    position: relative;
+    left: 530px;
+    top: 250px;
+}
+
+header p{
+    width: 455px;
+    top: 250px;
+    position: relative;
+    left: 485px;
+    font-weight: 150;
+    font-size: 18px;
+    line-height: 23.48px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+header button{
+    border-style:double ;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1px;
+    letter-spacing: 0.21em;
+    text-align: center;
+    border-color: rgba(49, 168, 221, 1);
+    background: transparent;
+    color:rgba(49, 168, 221, 1) ;
+    position: relative;
+    left: 520px;
+    top: 300px;
+    padding: 25px 75px 25px 75px;
+}
+
+.banner-content{
+    position: absolute;
+    width: 1440px;
+    height: 605px;
+    left: 0px;
+    top: 0px;
+    background-image: url(/Imagens/banner.png);
+    background-color:rgba(49, 168, 221, 0.3) ;
+    box-shadow: inset 1px 1px 200px 95px black;
+    
+    
+
+}
+
+header{
+    width: 1432px;
+    height: 605px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    box-shadow: outside blue;
+    
+}
+
+.banner{
+    left: 0px;
+    top: 0px;
+    border-bottom: rgba(49, 168, 221, 1) solid 0.5px;
+   
+} 
+.logo{
+   position: absolute;
+   width: 220px;
+   height: 220px;
+   left: 600px;
+   top: 27px;
+   
+   background-color:  rgba(0, 0, 0, 0.2);
+   border-radius:220px 220px 220px 220px;
+}
+img{
+    height: 180px;
+    position: relative;
+    top: 20px;
+    left: 6px;
+}
+main{
+    height: 1716px;
+}
+#course-content h2 {
+    width:Hug(477px);
+    height:Hug (38px);
+    font-size: 32px;
+    font-weight: 450;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    color:  rgba(51, 168, 219, 1);
+    margin-top: 100px;
+    text-transform: uppercase;
+}
+#course-content p{
+    width: 800px;
+    height:Hug(38);
+    top: 62px;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 310px;
+    color: rgba(255, 255, 255, 1);
+}
+.module{
+    color: rgba(255, 255, 255, 1);
+    width: 450px;
+    height: 25px;
+    display: flex;
+    font-weight: 200;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 25px 16px 35px;
+    gap: 10px;
+    margin-top: 24px;
+    margin-bottom: 25px;
+    background: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+    position: relative;
+    left: 455px;
+}
+.module span{
+    color: rgba(51, 168, 219, 1);
+    font-weight: 200;
+}
+#transform-world{
+    height: 450px;
+    width: 1440px;
+    left: 0px;
+    top: 25px;
+    border-radius: 0px;
+    background-image: url(/Imagens/woman-code\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 125px;
+    background-attachment:fixed;
+    border-top: rgba(51, 168, 219, 1) solid 1px;
+    border-bottom: rgba(51, 168, 219, 1) solid 1px;
+}
+
+#transform-world p{
+    width: 265px;
+    height: 200px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 45px;
+    text-shadow: 3px 2px 0px #33A8DB;
+    position: absolute;
+    left: 198px;
+    right: 998px;
+    top: 1275px;
+    color: #FFFFFF;
+    text-transform: lowercase;
+}
+
+#professional-challenges h2{
+    width: 850px;
+    height: 76px;
+    top: 1577px;
+    left: 315px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    color: #33A8DB;
+    text-transform: uppercase;
+    position: absolute;
+    top: 1700px;
+}
+#professional-challenges{
+    background-image: url(/Imagens/professional-challenges.png);
+    height: 600px;
+    width: 750px;
+    left: 600px;
+    top: 1685px;
+    border-radius: 0px;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    margin-left: 420px;
+    margin-right: 365px;
+    
+   
+}
+#professional-challenges p{
+    height: 76px;
+    width: 792px;
+    left: 324px;
+    top: 2154px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+    top: 450px;
+    left: auto;
+    right: 75px;
+}
+footer{
+    text-align: center;
+    border-top:rgba(51, 168, 219, 1) solid 1px ;
+    background-color:rgba(10, 10, 10, 0.3) ;
+    
+
+}
+.dio-logo{
+    width: 1400;
+    height: 50px;
+    filter: drop-shadow(0px 0px 0px gray);
+    
+}
+footer p{
+    height: 0;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+background-color: transparent;
+box-shadow:  0px 0px 80px 4px rgb(13, 164, 235);
+
+}
